@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    background-color:  hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 424px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    padding: 2%;
+    margin: 10% auto;
+    border-radius: 20px;
+
+}
+
+.container img {
+    margin-top: 10px;
+    border: 1px solid hsl(217, 12%, 63%);
+    border-radius: 50%;
+    padding:5%;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.text p {
+    color: hsl(217, 12%, 63%);
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.btn button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+   
+}
+
+
+.btn button:hover {
+    background-color:  hsl(25, 97%, 53%);
+    color: black;
+
+}
+
+ .submit button {
+    width: 90%;
+    margin-top: 7%;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    background-color: wheat;
+}
+
+.rating {
+    width: 424px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    padding: 2%;
+    margin: 10% auto;
+    border-radius: 20px;
+    text-align: center;
+    display: none;
+}
+
+.rating img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-top: 20px;
+
+}
+
+.text span {
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+    color:  hsl(25, 97%, 53%);
+    background-color:  hsl(216, 12%, 8%);
+}
+
+.text h1{
+    padding-top: 20px;
+}
+
+.text p{
+    width: 390px;
+    padding-left: 25px;
+    position: relative;
+    right: 20px;
+}
+
+/* ****************** MEDIA QUERY ****************** */
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        width: 275px;
+        margin: 30% auto;
+    
+    }
+
+    .container img {
+        margin-left: 15px;
+    }
+
+    .text h1 {
+        font-size: 21px;
+        font-weight: 300;
+        margin-left: 15px;
+    }
+    
+    .text p {
+        font-size: 12px;
+        width: 270px;
+    }
+    
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 10px;
+       
+    }
+    
+    .btn button {
+        
+        width: 30px;
+        height: 30px;
+        padding: 5px
+
+       
+    }
+    
+    
+    .btn button:hover {
+        background-color:  hsl(25, 97%, 53%);
+        color: black;
+    
+    }
+    
+     .submit button {
+        width: 80%;
+        margin-left: 25px;
+        margin-bottom: 20px;
+       
+    }
+
+
+    .rating {
+        width: 275px;
+        margin: 30% auto;
+    }
+    
+    .rating img {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .text span {
+      font-family: 300;
+      font-size: 12px;
+    }
+    
+    .text h1{
+        font-size: 21px;
+    }
+    
+    .text p{
+        width: 260px;
+        position: relative;
+        right: 10px;
+    }
+    
+    
+    
+}
